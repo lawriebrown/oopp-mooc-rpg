@@ -3,7 +3,8 @@
 Contains a set of classes to implement a text-based adventure game.
 To play a new instance of the game, create a new `World` instance
 (optionally passing in a customized game_config data structure),
-and then call the play method on that instance. eg.
+and then call the play method on that instance. For example, if you
+have saved this project in folder "rpg", then a simple python main is:
 
     import rpg
     game_world = rpg.World()
